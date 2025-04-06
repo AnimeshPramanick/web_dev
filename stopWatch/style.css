@@ -1,0 +1,84 @@
+@font-face {
+    font-family: calculate;
+    src: url(technology/Technology.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 237, 237);
+}
+
+#container
+{
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    border: solid rgba(0, 0, 0, 0.284) 4px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen
+{
+    background-color: rgb(255, 72, 0);
+    height: 100px;
+    width: 250px;
+    border: gainsboro solid 8px;
+    border-radius: 1rem;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.649);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: calculate;
+}
+
+.heading
+{
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+}
+
+.all_btn
+{
+    margin-top: 40px;
+    display: flex;
+    gap: 18px;
+}
+
+.btns
+{
+    height: 30px;
+    width: 70px;
+    font-size: 14px;
+    border: solid rgba(0, 0, 0, 0.223) 2px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    transition: all ease 0.3s;
+}
+
+.btns:hover
+{
+    transform: scale(1.15);
+    background-color: rgba(39, 38, 38, 0.829);
+    color: white;
+}
+
